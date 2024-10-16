@@ -1,0 +1,47 @@
+.filter__button {
+    display: flex;
+    padding: 4px 8px;
+    align-items: center;
+    gap: 4px; 
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid rgb(239 68 68);
+}
+
+.filter__button__span {
+    color: rgb(239 68 68);
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 16.56px;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.filter__button:active {
+    border: 1px solid rgb(239 68 68);
+}
+
+.filter__button__span:active {
+    color: rgb(239 68 68); 
+}
+
+.filter__button__select{
+    display: flex;line-height: 16.56px;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 4px;
+    background: rgb(239 68 68);
+    border: 1px solid rgb(239 68 68);
+    border-radius: 8px;
+}
+
+.filter__button__span__selected {
+    font-style: normal;
+    font-weight: 700;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 16.56px;
+    text-transform: uppercase;
+    color: #fff;
+}
